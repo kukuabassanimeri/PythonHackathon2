@@ -65,5 +65,49 @@
 </div>
 
 
+  <!--Projects start here-->
+  <div id="work">
+    <h1 class="pl-20 text-gray-600 pt-10 text-lg ">I invite you to check out my portfolio to learn
+        more about my work and projects. <br>
+    </h1>
+</div>
+
+
+<div class="grid grid-cols-2 gap-32 pt-5 pl-20">
+    <div>
+        <p>Random Facts</p>
+        <p>{{fact}}</p>
+    </div>
+
+    <div>
+        <p>Random Students</p>
+        {% if name %}
+            <p>Name: {{ name }}</p>
+        {% endif %}
+    </div>
+    
+    <div>
+        <p>Random Bored</p>
+        <p>Are you bored? if so...</p>
+        <p>{{act}}</p>
+        
+    </div>
+   
+    <div>
+        <p>Random Images</p>
+        <p>Which dog breed do you like most</p>
+        <img src="{{event}}" alt="dog breed" width="200px" height="100px">
+      
+
+    </div>
+   
+</div>
+
+<!--Projects end here-->
+
+
+
+
+
 </body>
 </html>
