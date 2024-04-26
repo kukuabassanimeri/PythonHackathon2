@@ -55,7 +55,7 @@
 <!--about start here-->
 <div class="grid grid-cols-2 gap-x-5 pl-20 pr-20 pt-10 text-white pb-28 bg-blue-600 h-94">
     <section>
-        <img src="{% static 'media/hub.jpg' %}" alt="about randomizer hub" width="400" class="rounded-full hover:cursor-pointer" height="50">
+        <img src="{% static 'media/hub.jpg' %}" alt="about randomizer hub" width="400" class="rounded-full hover:cursor-pointer animate-spin" height="50">
     </section>
     <section id="ABOUT">
         <p class="text-lg pt-10 pr-48">Randomizer Hub is a programming application interface built using Django, HTML, and CSS that generates random facts, students, quotes, and images.</p>
@@ -67,34 +67,36 @@
 
   <!--Projects start here-->
   <div id="work">
-    <h1 class="pl-20 text-gray-600 pt-10 text-lg bg-orange-600">I invite you to check out my portfolio to learn
-        more about my work and projects. <br>
+    <h1 class="pl-20 text-white font-bold pt-10 text-lg bg-red-600">I invite you to check out random apis that can break your boredom<br>
     </h1>
 </div>
 
 
-<div class="grid grid-cols-2 gap-32 pt-5 pl-20 bg-orange-600">
+<div class="grid grid-cols-2 gap-32 pt-5 pl-20 bg-red-600">
     <div>
-        <p>Random Facts</p>
+        <p class="text-white font-bold">Random Facts</p>
         <p>{{fact}}</p>
     </div>
 
     <div>
-        <p>Random Students</p>
+        <p class="text-white font-bold">Random Students</p>
+        
         {% if name %}
-            <p>Name: {{ name }}</p>
+        <p>Name: {{ name }}</p>
         {% endif %}
+        
+       
     </div>
     
     <div>
-        <p>Random Bored</p>
+        <p class="text-white font-bold">Random Bored</p>
         <p>Are you bored? if so...</p>
         <p>{{act}}</p>
         
     </div>
    
     <div>
-        <p>Random Images</p>
+        <p class="text-white font-bold">Random Images</p>
         <p>Which dog breed do you like most</p>
         <img src="{{event}}" alt="dog breed" width="250px" height="50px">
       
@@ -106,15 +108,39 @@
 <!--Projects end here-->
 
 
+<!-- Refresh button -->
+<div>
+    <!--<form method="post" class="bg-blue-600 text-white">
+        {% csrf_token %}
+        <button type="submit">Refresh</button>
+    </form>-->
+    
+</div>
+
+
 <!--footer section start-->
 
 <section class="pl-20 text-white pt-5 text-lg bg-black h-94 pb-5" id="Contact">
    
 
      <!--To top starts-->
- <div class="text-right text-3xl pr-3 text-white">
-    <a href="#"><i class="fa-solid fa-arrow-up"></i>
+<div>
+    <div>
+        <button onclick="window.location.reload();">Reload page</button>
+    </div>
+
+
+    <div class="text-right text-3xl pr-3 text-white">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i>
+    </div>
 </div>
+
+<div class="text-white flex justify-center items-center gap-x-10 text-xl">
+    <p class="text-center text-lg">Copyright © 2024 All Rights Reserved | <br>This Randomizer Hub is designed
+        with <i class="fas fa-heart text-blue-600"></i> by <span class="text-orange-600">Abass Kuku
+            Animeri</span><br><span class="text-green-600">Full-stack Enthusiast</span></p>
+</div>
+
 <!--To top ends-->
 </section>
 
