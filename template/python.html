@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer Hub</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'python.css' %}">
+  
+
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://kit.fontawesome.com/caeb9ec53e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="{% static 'media/logo.png' %}" type="image/x-icon"/>
+
+
+</head>
+<body>
+    
+  <!-- Navigation Menu start-->
+  <nav>
+    <ul class="list-none flex items-center space-x-5 pr-36 text-lg text-white bg-gray-600 h-20">
+        <li class="flex-1 rounded-full hover:cursor-pointer pl-20">
+        <a href="https://github.com/kukuabassanimeri" rel="noopener" target="_blank">RANDOMIZER HUB</a></li>
+        <li><a href="#HOME">Home</a></li>
+        <li><a href="#ABOUT">About</a></li>
+        <li><a href="#PROJECTS">Projects</a></li>
+        <!--<li><a href="#HOME">Skills</a></li>-->
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!--Navigation menu ends-->
+
+
+
+<div class="grid grid-cols-2 gap-x-64 pt-10 pb-28" id="HOME">
+    <!--Message section-->
+    <section class="pl-20">
+        <p class="text-xl text-orange-600">Random API Generator</p>
+        <p class="pt-10 text-gray-600 text-2xl">Welcome to the World of Random Wonders!</p>
+        <p class="text-gray-600 pt-3 text-lg">Get ready to embark on an exciting journey filled with curiosity and discovery. <br>So, sit back, relax, and let the randomness unfold. Prepare to be amazed as you explore the endless possibilities that await. Start your adventure now and let the magic begin!</p>
+        
+    </section>
+
+    <!--Image section-->
+    <section>
+        <!--<img src="{% static 'media/hub.jpg' %}" alt="image" width="250" class="hover:cursor-pointer">-->
+        <i class="fa-regular fa-hand pl-20 text-yellow-400 text-9xl animate-bounce "></i>
+    </section>
+</div>
+
+<!--about start here-->
+<div class="grid grid-cols-2 gap-x-5 pl-20 pr-20 pt-10 text-white pb-28 bg-blue-600 h-94">
+    <section>
+        <img src="{% static 'media/hub.jpg' %}" alt="about randomizer hub" width="400" class="rounded-full hover:cursor-pointer" height="50">
+    </section>
+    <section id="ABOUT">
+        <p class="text-lg pt-10 pr-48">Randomizer Hub is a programming application interface built using Django, HTML, and CSS that generates random facts, students, quotes, and images.</p>
+        <br>
+        <p>Randomizer Hub Generator is here to delight and surprise you with fascinating facts, intriguing student profiles, inspiring quotes, and stunning images. Whether you are seeking knowledge, entertainment, a moment of inspiration, Randomizer Hub platform has something for everyone.</p>
+    </section>
+</div>
+
+
+</body>
+</html>
