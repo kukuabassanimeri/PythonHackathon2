@@ -27,3 +27,13 @@ Images and static files are served from the static directory.
 
 ##Contributing
 Interested in contributing? Great! First, fork the repository, make your changes and submit a pull request. I appreciate your contributions to make Randomizer Hub better!
+
+##Appreciation Message
+Thank you for taking the time to explore Randomizer Hub! I hope you enjoyed your journey through the world of randomness and discovered some fascinating facts along the way. Your support and interest mean the world to me.
+If you have any feedback, suggestions, or just want to say hello, I love to hear from you! Feel free to reach out to me using the contact information below.
+
+#Contact
+You can reach out to me through the following channels:
+
+Email: abasskuku319@gmail.com
+GitHub: @kukuabassanimeri
