@@ -7,10 +7,10 @@ Images and static files are served from the static directory.
 
 ## Features
 
-**Random Facts**: Discover interesting facts that might surprise you!
-**Random Students**: Get random student names for academic or testing purposes.
-**Random Bored**: Bored? Get a random activity suggestion.
-**Random Images**: View random images of dogs to brighten your day.
+- **Random Facts**: Discover interesting facts that might surprise you!
+- **Random Students**: Get random student names for academic or testing purposes.
+- **Random Bored**: Bored? Get a random activity suggestion.
+- **Random Images**: View random images of dogs to brighten your day.
 
 **Usage**
 #Clone the repository: git clone git clone https://github.com/kukuabassanimeri/PythonHackathon2
