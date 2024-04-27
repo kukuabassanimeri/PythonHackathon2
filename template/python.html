@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Randomizer Hub</title>
 
+    <!--Django function that reload the static files-->
     {% load static %}
     <link rel="stylesheet" href="{% static 'python.css' %}">
   
 
-
+    <!--Links that support various files used-->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script src="https://kit.fontawesome.com/caeb9ec53e.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -19,7 +20,7 @@
 </head>
 <body>
     
-  <!-- Navigation Menu start-->
+  <!-- Navigation Menu start here-->
   <nav>
     <ul class="list-none flex items-center space-x-5 pr-36 text-lg text-white bg-gray-600 h-20">
         <li class="flex-1 rounded-full hover:cursor-pointer pl-20">
@@ -32,40 +33,43 @@
     </ul>
 </nav>
 
-<!--Navigation menu ends-->
+<!--Navigation menu ends here-->
 
 
 
 <div class="grid grid-cols-2 gap-x-64 pt-10 pb-28" id="HOME">
-    <!--Message section-->
+    <!--Welcome message starts here-->
     <section class="pl-20">
         <p class="text-xl text-orange-600">Random API Generator</p>
         <p class="pt-10 text-gray-600 text-2xl">Welcome to the World of Random Wonders!</p>
         <p class="text-gray-600 pt-3 text-lg">Get ready to embark on an exciting journey filled with curiosity and discovery. <br>So, sit back, relax, and let the randomness unfold. Prepare to be amazed as you explore the endless possibilities that await. Start your adventure now and let the magic begin!</p>
         
     </section>
+    <!--Welcome message ends here-->
 
     <!--Image section-->
     <section>
-        <!--<img src="{% static 'media/hub.jpg' %}" alt="image" width="250" class="hover:cursor-pointer">-->
         <i class="fa-regular fa-hand pl-20 text-yellow-400 text-9xl animate-bounce "></i>
     </section>
 </div>
 
 <!--about start here-->
 <div class="grid grid-cols-2 gap-x-5 pl-20 pr-20 pt-10 text-white pb-28 bg-gray-600 h-94">
+    <!--logo message starts here-->
     <section>
         <img src="{% static 'media/hub.jpg' %}" alt="about randomizer hub" width="400" class="rounded-full hover:cursor-pointer animate-spin" height="50">
     </section>
+    <!--Logo Message Ends Here-->
+
     <section id="ABOUT">
         <p class="text-lg pt-10 pr-48">Randomizer Hub is a programming application interface built using Django, HTML, and CSS that generates random facts, random students' names, random bored stories, and random dog images.</p>
         <br>
         <p>It is here to delight and surprise you with fascinating facts, intriguing student profiles, inspiring boredoms, and stunning dog images. Whether you are seeking knowledge, entertainment or a moment of inspiration, Randomizer Hub platform has something for you.</p>
     </section>
 </div>
+<!--about ends here-->
 
-
-  <!--Projects start here-->
+  <!--Random apis start here-->
   <div id="work">
     <h1 class="pl-20 font-bold pt-10 text-lg bg-white">I invite you to check out random apis that can break your boredom<br>
     </h1>
@@ -106,7 +110,7 @@
    
 </div>
 
-<!--Projects end here-->
+<!--Random apis end here-->
 
 
 <!--footer section start-->
@@ -135,8 +139,6 @@
         with <i class="fas fa-heart text-blue-600"></i> by <span>Abass Kuku
             Animeri</span><br><span>Full-stack Enthusiast</span></p>
 </div>
-
-<!--To top ends-->
 </section>
 
 <!--footer section ends-->
