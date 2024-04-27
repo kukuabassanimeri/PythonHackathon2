@@ -5,14 +5,14 @@ Welcome to the **Randomizer Hub**, an engaging web application built using Djang
 The application utilizes Tailwind CSS for styling and Font Awesome for icons.
 Images and static files are served from the static directory.
 
-## Features
+##Features
 
 - **Random Facts**: Discover interesting facts that might surprise you!
 - **Random Students**: Get random student names for academic or testing purposes.
 - **Random Bored**: Bored? Get a random activity suggestion.
 - **Random Images**: View random images of dogs to brighten your day.
 
-**Usage**
+##Usage
 - #Clone the repository: git clone git clone https://github.com/kukuabassanimeri/PythonHackathon2
 - #Navigate to the project directory: cd randomizer-hub
 - #Install dependencies: pip install -r requirements.txt
