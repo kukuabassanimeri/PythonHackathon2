@@ -53,7 +53,7 @@
 </div>
 
 <!--about start here-->
-<div class="grid grid-cols-2 gap-x-5 pl-20 pr-20 pt-10 text-white pb-28 bg-blue-600 h-94">
+<div class="grid grid-cols-2 gap-x-5 pl-20 pr-20 pt-10 text-white pb-28 bg-gray-600 h-94">
     <section>
         <img src="{% static 'media/hub.jpg' %}" alt="about randomizer hub" width="400" class="rounded-full hover:cursor-pointer animate-spin" height="50">
     </section>
@@ -67,19 +67,19 @@
 
   <!--Projects start here-->
   <div id="work">
-    <h1 class="pl-20 text-white font-bold pt-10 text-lg bg-red-600">I invite you to check out random apis that can break your boredom<br>
+    <h1 class="pl-20 font-bold pt-10 text-lg bg-white">I invite you to check out random apis that can break your boredom<br>
     </h1>
 </div>
 
 
-<div class="grid grid-cols-2 gap-32 pt-5 pl-20 bg-red-600">
+<div class="grid grid-cols-2 gap-32 pt-5 pl-20 bg-white-600">
     <div>
-        <p class="text-white font-bold">Random Facts</p>
+        <p class="font-bold">Random Facts</p>
         <p>{{fact}}</p>
     </div>
 
     <div>
-        <p class="text-white font-bold">Random Students</p>
+        <p class="font-bold">Random Students' Names</p>
         
         {% if name %}
         <p>Name: {{ name }}</p>
@@ -89,16 +89,16 @@
     </div>
     
     <div>
-        <p class="text-white font-bold">Random Bored</p>
-        <p>Are you bored? if so...</p>
+        <p class="font-bold">Random Bored</p>
+        <p>Are you bored? if so.</p>
         <p>{{act}}</p>
         
     </div>
    
     <div>
-        <p class="text-white font-bold">Random Images</p>
-        <p>Which dog breed do you like most</p>
-        <img src="{{event}}" alt="dog breed" width="250px" height="50px">
+        <p class="font-bold">Random dog Images</p>
+        <p>Do you know this dog breed? yes/no</p>
+        <img src="{{event}}" alt="dog breed" width="220px" height="30px">
       
 
     </div>
@@ -120,7 +120,7 @@
 
 <!--footer section start-->
 
-<section class="pl-20 text-white pt-5 text-lg bg-black h-94 pb-5" id="Contact">
+<section class="pl-20 text-white pt-5 text-lg bg-gray-600 h-94 pb-5 mt-4" id="Contact">
    
 
      <!--To top starts-->
